@@ -32,7 +32,7 @@
       <div>
         <p class="footer-col-title">Contact</p>
         <ul class="footer-links" style="gap:8px;">
-          <li style="color:rgba(255,255,255,.55);font-size:.88rem;line-height:1.6;">Thaivalappil House,<br>Pazhuvil West P O,<br>Thrissur &mdash; 680564, Kerala</li>
+          <li style="color:rgba(255,255,255,.55);font-size:.88rem;line-height:1.6;">Thrissur &mdash; 680564, Kerala</li>
           <li><a href="tel:+918592933387">+91 85929 33387</a></li>
           <li><a href="mailto:finstepswealth@gmail.com">finstepswealth@gmail.com</a></li>
         </ul>

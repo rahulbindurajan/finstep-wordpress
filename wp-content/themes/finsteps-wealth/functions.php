@@ -88,7 +88,7 @@ function finsteps_seo_meta() {
     "email": "finstepswealth@gmail.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Thaivalappil House, Pazhuvil West P O",
+      "streetAddress": "Thrissur",
       "addressLocality": "Thrissur",
       "addressRegion": "Kerala",
       "postalCode": "680564",
