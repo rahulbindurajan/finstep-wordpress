@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /finsteps/
+Allow: /finsteps/about.php
+Allow: /finsteps/contact.php
+
+Disallow: /finsteps/wp-admin/
+Disallow: /finsteps/wp-includes/
+Disallow: /finsteps/wp-content/plugins/
+Disallow: /finsteps/wp-login.php
+Disallow: /finsteps/wp-register.php
+Disallow: /finsteps/xmlrpc.php
+Disallow: /finsteps/inc/
+
+Sitemap: http://localhost/finsteps/sitemap.xml
