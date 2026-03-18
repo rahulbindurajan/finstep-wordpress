@@ -1,4 +1,8 @@
-<?php $base = $base ?? '/finsteps'; $assetBase = $base . '/wp-content/themes/finsteps-wealth/assets'; ?>
+<?php
+if (!defined('SITE_BASE')) require_once __DIR__ . '/config.php';
+$base      = SITE_BASE;
+$assetBase = ASSET_URL;
+?>
 <!-- ========== FOOTER ========== -->
 <footer class="site-footer">
   <div class="container">

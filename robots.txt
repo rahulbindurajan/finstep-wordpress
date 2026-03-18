@@ -11,4 +11,4 @@ Disallow: /finsteps/wp-register.php
 Disallow: /finsteps/xmlrpc.php
 Disallow: /finsteps/inc/
 
-Sitemap: http://localhost/finsteps/sitemap.xml
+Sitemap: http://localhost/finsteps/sitemap.php

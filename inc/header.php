@@ -2,8 +2,10 @@
 /* ===================================================
    Shared Header — FinSteps Wealth
    =================================================== */
-$base       = '/finsteps';
-$assetBase  = $base . '/wp-content/themes/finsteps-wealth/assets';
+require_once __DIR__ . '/config.php';
+
+$base       = SITE_BASE;
+$assetBase  = ASSET_URL;
 $activePage = $activePage ?? 'home';
 
 /* --- SEO defaults (override in each page file) --- */
@@ -11,7 +13,7 @@ $pageTitle   = $pageTitle  ?? 'FinSteps Wealth';
 $metaDesc    = $metaDesc   ?? 'FinSteps Wealth is a SEBI-registered mutual fund company based in Thrissur, Kerala. Start investing from ₹500/month with expert-managed funds for long-term wealth creation.';
 $metaKeys    = $metaKeys   ?? 'mutual fund, mutual fund Kerala, SIP investment, SEBI registered fund, wealth management Thrissur, best mutual fund India, equity fund, debt fund, ELSS tax saving, FinSteps Wealth';
 $ogType      = $ogType     ?? 'website';
-$ogImage     = $ogImage    ?? 'http://localhost' . $base . '/wp-content/themes/finsteps-wealth/assets/images/og-image.jpg';
+$ogImage     = $ogImage    ?? ASSET_URL . '/images/og-image.jpg';
 
 /* --- Canonical URL --- */
 $protocol  = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
@@ -28,8 +30,8 @@ $orgSchema = [
   '@type'       => 'FinancialService',
   'name'        => 'FinSteps Wealth',
   'description' => 'SEBI-registered mutual fund company in Kerala offering expert-managed investment funds.',
-  'url'         => 'http://localhost' . $base . '/',
-  'logo'        => 'http://localhost' . $base . '/favicon.svg',
+  'url'         => SITE_URL . '/',
+  'logo'        => SITE_URL . '/favicon.svg',
   'telephone'   => '+918592933387',
   'email'       => 'finstepswealth@gmail.com',
   'address'     => [
@@ -53,7 +55,7 @@ $websiteSchema = ($activePage === 'home') ? [
   '@context' => 'https://schema.org',
   '@type'    => 'WebSite',
   'name'     => 'FinSteps Wealth',
-  'url'      => 'http://localhost' . $base . '/',
+  'url'      => SITE_URL . '/',
   'potentialAction' => [
     '@type'       => 'SearchAction',
     'target'      => 'http://localhost' . $base . '/?s={search_term_string}',
@@ -66,7 +68,7 @@ $contactSchema = ($activePage === 'contact') ? [
   '@context' => 'https://schema.org',
   '@type'    => 'ContactPage',
   'name'     => 'Contact FinSteps Wealth',
-  'url'      => 'http://localhost' . $base . '/contact.php',
+  'url'      => SITE_URL . '/contact.php',
   'description' => 'Contact FinSteps Wealth for mutual fund investment guidance, SIP plans, and portfolio advisory services.',
 ] : null;
 
@@ -75,7 +77,7 @@ $aboutSchema = ($activePage === 'about') ? [
   '@context' => 'https://schema.org',
   '@type'    => 'AboutPage',
   'name'     => 'About FinSteps Wealth',
-  'url'      => 'http://localhost' . $base . '/about.php',
+  'url'      => SITE_URL . '/about.php',
   'description' => 'Learn about FinSteps Wealth — our values, investment philosophy, and mission to make wealth creation accessible to every Indian.',
 ] : null;
 ?>
