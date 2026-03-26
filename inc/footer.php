@@ -10,8 +10,18 @@ $assetBase = ASSET_URL;
 
       <div class="footer-brand">
         <div class="footer-logo">
-          <div class="nav-logo-icon" style="width:34px;height:34px;font-size:.9rem;">&#9650;</div>
-          FinSteps <span>Wealth</span>
+          <div class="nav-logo-icon" style="width:34px;height:34px;">
+            <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+              <rect x="3"  y="27" width="8"  height="6"  rx="1" fill="currentColor" opacity="0.6"/>
+              <rect x="13" y="19" width="8"  height="14" rx="1" fill="currentColor" opacity="0.8"/>
+              <rect x="23" y="9"  width="10" height="24" rx="1" fill="currentColor"/>
+              <polyline points="3,27 13,19 23,9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+            </svg>
+          </div>
+          <div class="nav-logo-text">
+            <span class="logo-fin">FinSteps</span>
+            <span class="logo-wealth">Wealth</span>
+          </div>
         </div>
         <p class="footer-tagline">Building financial futures through disciplined investing, trusted research, and personalised guidance for every investor.</p>
         <div class="footer-social">
@@ -35,7 +45,7 @@ $assetBase = ASSET_URL;
       <div>
         <p class="footer-col-title">Contact</p>
         <ul class="footer-links" style="gap:8px;">
-          <li style="color:rgba(255,255,255,.55);font-size:.88rem;line-height:1.6;">Thrissur &mdash; 680564, Kerala</li>
+          <li style="color:rgba(255,255,255,.55);font-size:.88rem;line-height:1.6;">Irinjalakuda &mdash; 680564, Kerala</li>
           <li><a href="tel:+918592933387">+91 85929 33387</a></li>
           <li><a href="mailto:finstepswealth@gmail.com">finstepswealth@gmail.com</a></li>
         </ul>

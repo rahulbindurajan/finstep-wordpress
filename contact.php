@@ -37,7 +37,7 @@ require __DIR__ . '/inc/header.php';
             <div class="detail-icon-wrap">&#128205;</div>
             <div>
               <div class="detail-label">Address</div>
-              <div class="detail-value">Thrissur &mdash; 680564, Kerala</div>
+              <div class="detail-value">Irinjalakuda &mdash; 680564, Kerala</div>
             </div>
           </div>
           <div class="contact-detail-item">
@@ -142,7 +142,7 @@ require __DIR__ . '/inc/header.php';
       <div class="map-overlay">
         <div class="map-pin">&#128205;</div>
         <p><strong style="color:var(--white)">FinSteps Wealth</strong></p>
-        <p>Thrissur &mdash; 680564, Kerala</p>
+        <p>Irinjalakuda &mdash; 680564, Kerala</p>
         <p style="margin-top:14px;"><a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;margin-top:4px;">&#128506; Open in Maps</a></p>
       </div>
     </div>

@@ -177,10 +177,31 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: var(--white);
-  font-size: 1.3rem;
+  gap: 11px;
+  text-decoration: none;
+  line-height: 1;
+}
+.nav-logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.nav-logo-text .logo-fin {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.85rem;
   font-weight: 700;
+  color: var(--white);
+  letter-spacing: 0.03em;
+  line-height: 1;
+}
+.nav-logo-text .logo-wealth {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--green);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  line-height: 1;
 }
 .nav-logo-icon {
   width: 40px; height: 40px;
@@ -661,11 +682,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .footer-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: var(--white);
-  font-size: 1.2rem;
-  font-weight: 700;
+  gap: 11px;
   margin-bottom: 16px;
+  line-height: 1;
+}
+.footer-logo .nav-logo-text .logo-fin {
+  font-size: 1.1rem;
 }
 .footer-logo span { color: var(--green); }
 .footer-tagline { font-size: .88rem; color: rgba(255,255,255,.45); line-height: 1.65; max-width: 280px; margin-bottom: 24px; }

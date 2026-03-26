@@ -50,7 +50,7 @@ require __DIR__ . '/inc/header.php';
         <div class="story-img-wrap">
           <div class="story-img-placeholder">
             <div class="big-icon">&#127970;</div>
-            <p>FinSteps Wealth<br>Thrissur, Kerala</p>
+            <p>FinSteps Wealth<br>Irinjalakuda, Kerala</p>
           </div>
         </div>
         <div class="story-float-card">

@@ -39,7 +39,7 @@ get_header(); ?>
             <div class="detail-icon-wrap">&#128205;</div>
             <div>
               <div class="detail-label">Head Office</div>
-              <div class="detail-value">1204, Maker Chambers IV, Nariman Point,<br>Mumbai, Maharashtra — 400 021</div>
+              <div class="detail-value">Irinjalakuda,<br>Thrissur District, Kerala — 680 564</div>
             </div>
           </div>
           <div class="contact-detail-item">
@@ -168,7 +168,7 @@ get_header(); ?>
       <div class="map-overlay">
         <div class="map-pin">&#128205;</div>
         <p><strong style="color:var(--white)">FinSteps Wealth Head Office</strong></p>
-        <p>1204 Maker Chambers IV, Nariman Point, Mumbai 400 021</p>
+        <p>Irinjalakuda, Thrissur District, Kerala — 680 564</p>
         <p style="margin-top:12px; font-size:.78rem; opacity:.5;">Interactive map available in production — Google Maps integration</p>
       </div>
     </div>
