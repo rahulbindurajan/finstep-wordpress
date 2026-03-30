@@ -42,15 +42,32 @@
         </div>
       </div>
 
-      <!-- Dashboard Card -->
+      <!-- Returns Snapshot Card -->
       <div class="hero-visual">
         <div class="dashboard-card">
           <div class="dash-header">
-            <span class="dash-title">Portfolio Overview</span>
-            <span class="dash-badge">&#9650; Live</span>
+            <span class="dash-title">&#128200;&nbsp; Fund Returns Snapshot</span>
+            <span class="dash-badge">&#9650; Updated</span>
           </div>
-          <div class="dash-value">&#8377;12,48,930</div>
-          <div class="dash-change">&#9650; +18.4%&nbsp;<span style="color:rgba(255,255,255,.4);font-size:.78rem;">this year</span></div>
+          <div class="dash-funds" style="margin-top:8px;">
+            <div class="dash-fund-row">
+              <span class="fund-name">&#128200; Equity Growth</span>
+              <span class="fund-return">+22.3% CAGR</span>
+            </div>
+            <div class="dash-fund-row">
+              <span class="fund-name">&#9878; Balanced Advantage</span>
+              <span class="fund-return">+14.7% CAGR</span>
+            </div>
+            <div class="dash-fund-row">
+              <span class="fund-name">&#127968; Debt Income</span>
+              <span class="fund-return">+8.1% CAGR</span>
+            </div>
+            <div class="dash-fund-row">
+              <span class="fund-name">&#128181; Tax Saver ELSS</span>
+              <span class="fund-return">+20.5% CAGR</span>
+            </div>
+          </div>
+          <div class="calc-divider" style="margin:14px 0 12px;"></div>
           <div class="chart-bars">
             <div class="chart-bar"></div>
             <div class="chart-bar"></div>
@@ -60,19 +77,9 @@
             <div class="chart-bar active"></div>
             <div class="chart-bar"></div>
           </div>
-          <div class="dash-funds">
-            <div class="dash-fund-row">
-              <span class="fund-name">Equity Growth Fund</span>
-              <span class="fund-return">+22.3%</span>
-            </div>
-            <div class="dash-fund-row">
-              <span class="fund-name">Balanced Advantage</span>
-              <span class="fund-return">+14.7%</span>
-            </div>
-            <div class="dash-fund-row">
-              <span class="fund-name">Debt Income Fund</span>
-              <span class="fund-return">+8.1%</span>
-            </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;">
+            <span style="font-size:.7rem;color:rgba(255,255,255,.35);">5-Year Average CAGR</span>
+            <span style="font-size:1.2rem;font-weight:800;color:var(--green,#22c55e);">+18.4%</span>
           </div>
         </div>
       </div>
@@ -105,8 +112,8 @@
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item reveal">
-        <div class="stat-number">&#8377;<span data-count="8200" data-suffix="Cr+">8200Cr+</span></div>
-        <div class="stat-desc">Assets Under Management</div>
+        <div class="stat-number">&#127919;</div>
+        <div class="stat-desc">Goal-Based Planning</div>
       </div>
       <div class="stat-item reveal reveal-delay-1">
         <div class="stat-number"><span data-count="18" data-suffix=".4%">18.4%</span></div>
@@ -170,9 +177,73 @@
 </section>
 
 <!-- ========================================
+   OUR SERVICES
+   ======================================== -->
+<section class="services-section section-padding">
+  <div class="container">
+    <div class="text-center">
+      <div class="badge">What We Offer</div>
+      <h2 class="section-title">Comprehensive <span class="accent">Financial Services</span></h2>
+      <p class="section-subtitle">Everything you need to build, protect, and grow your wealth — under one roof.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+        <div class="service-icon">&#128200;</div>
+        <h3 class="service-title">Personalised Portfolio Management</h3>
+        <p class="service-desc">Custom-built investment portfolios aligned to your financial goals, risk profile, and time horizon — actively managed by our experts.</p>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">&#128269;</div>
+        <h3 class="service-title">Portfolio Review &amp; Audit</h3>
+        <p class="service-desc">In-depth analysis of your existing investments to identify underperformers, overlaps, and opportunities to optimise returns.</p>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">&#127774;</div>
+        <h3 class="service-title">Retirement Plans &amp; Investments</h3>
+        <p class="service-desc">Structured retirement strategies — NPS, pension funds, and SIPs — designed to ensure a financially independent post-retirement life.</p>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">&#127891;</div>
+        <h3 class="service-title">Child Education Plans</h3>
+        <p class="service-desc">Dedicated investment plans that grow steadily to fund your child's higher education, no matter how costs rise over time.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">&#127919;</div>
+        <h3 class="service-title">Goal-Based Investments</h3>
+        <p class="service-desc">Whether it's a home, a business, or world travel — we build targeted investment roadmaps to hit every milestone on schedule.</p>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">&#128196;</div>
+        <h3 class="service-title">Taxation Services</h3>
+        <p class="service-desc">Smart tax planning using ELSS, HRA, and Sec 80C instruments to legally minimise your tax outgo while maximising wealth creation.</p>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">&#128737;</div>
+        <h3 class="service-title">Risk Management &amp; Insurance</h3>
+        <p class="service-desc">Comprehensive risk assessment and insurance advisory — life, health, and critical illness cover tailored to protect your family's future.</p>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">&#127758;</div>
+        <h3 class="service-title">NRI Investment Services</h3>
+        <p class="service-desc">Dedicated investment solutions for Non-Resident Indians — NRE/NRO-compliant funds, repatriation advisory, and seamless remote portfolio management.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========================================
    HOW IT WORKS
    ======================================== -->
-<section class="how-section section-padding" style="background:var(--white);">
+<section class="how-section section-padding">
   <div class="container">
     <div class="text-center">
       <div class="badge">Simple Process</div>
@@ -207,7 +278,7 @@
 <!-- ========================================
    FUND CATEGORIES
    ======================================== -->
-<section class="funds-section section-padding" style="background:var(--off-white);">
+<section class="funds-section section-padding">
   <div class="container">
     <div class="text-center">
       <div class="badge">Our Funds</div>
@@ -357,19 +428,19 @@
         <div style="display:flex;flex-direction:column;gap:10px;">
           <div class="calc-result">
             <span class="calc-result-label">Amount Invested</span>
-            <span class="calc-result-val" style="font-size:1.1rem;color:rgba(255,255,255,.7);" id="calc-invested">&#8377;12,00,000</span>
+            <span class="calc-result-val" style="font-size:1.1rem;color:#fff;" id="calc-invested">—</span>
           </div>
           <div class="calc-result">
             <span class="calc-result-label">Estimated Returns</span>
-            <span class="calc-result-val" style="font-size:1.1rem;" id="calc-returns">&#8377;--</span>
+            <span class="calc-result-val" style="font-size:1.1rem;" id="calc-returns">—</span>
           </div>
           <div class="calc-divider"></div>
           <div class="calc-result">
-            <span class="calc-result-label" style="font-weight:700;color:rgba(255,255,255,.9);">Total Value</span>
-            <span class="calc-result-val" id="calc-total">&#8377;--</span>
+            <span class="calc-result-label" style="font-weight:700;color:#fff;">Total Value</span>
+            <span class="calc-result-val" id="calc-total">—</span>
           </div>
         </div>
-        <p style="font-size:.7rem;color:rgba(255,255,255,.3);margin-top:16px;">*Estimated values. Actual returns may vary. Past performance is not indicative of future results.</p>
+        <p style="font-size:.7rem;color:rgba(255,255,255,.8);margin-top:16px;">*Estimated values. Actual returns may vary. Past performance is not indicative of future results.</p>
       </div>
     </div>
   </div>
@@ -454,7 +525,7 @@
         <span class="award-icon">&#128737;</span>
         <div>
           <span class="award-name">SEBI Registered</span>
-          Reg. No. INH000004128
+          Regulated &amp; Compliant
         </div>
       </div>
     </div>

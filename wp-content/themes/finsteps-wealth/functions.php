@@ -16,8 +16,9 @@ add_action( 'after_setup_theme', 'finsteps_setup' );
 
 /* --- Enqueue Assets --- */
 function finsteps_enqueue() {
-    wp_enqueue_style(  'finsteps-main', get_template_directory_uri() . '/assets/css/main.css', [], '1.0.0' );
-    wp_enqueue_script( 'finsteps-main', get_template_directory_uri() . '/assets/js/main.js',  [], '1.0.0', true );
+    wp_enqueue_style(  'finsteps-main',    get_template_directory_uri() . '/assets/css/main.css',          [], '1.0.0' );
+    wp_enqueue_style(  'finsteps-colors',  get_template_directory_uri() . '/assets/css/color-refresh.css', ['finsteps-main'], '1.0.0' );
+    wp_enqueue_script( 'finsteps-main',    get_template_directory_uri() . '/assets/js/main.js',            [], '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'finsteps_enqueue' );
 

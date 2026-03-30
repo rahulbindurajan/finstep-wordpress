@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinSteps Wealth — F·W Icon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #eef2f7;
+      min-height: 100vh;
+      padding: 60px 24px 80px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: #94a3b8;
+      margin-bottom: 48px;
+    }
+
+    /* ── two-column layout ── */
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      max-width: 860px;
+      margin: 0 auto 40px;
+    }
+
+    @media (max-width: 600px) { .layout { grid-template-columns: 1fr; } }
+
+    /* ── preview panels ── */
+    .panel {
+      border-radius: 22px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      padding: 52px 32px;
+    }
+
+    .panel-dark  { background: #0f172a; }
+    .panel-light { background: #ffffff; box-shadow: 0 2px 24px rgba(0,0,0,.07); }
+
+    .panel-label {
+      font-size: .6rem;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .panel-dark  .panel-label { color: rgba(255,255,255,.25); }
+    .panel-light .panel-label { color: #cbd5e1; }
+
+    /* ── wordmark ── */
+    .wm { display: flex; align-items: center; gap: 16px; }
+    .wm-text { line-height: 1.15; }
+    .wm-text .name {
+      display: block;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      letter-spacing: -.01em;
+    }
+    .wm-text .tag {
+      display: block;
+      font-size: .58rem;
+      font-weight: 700;
+      letter-spacing: .26em;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    .panel-dark  .wm-text .name { color: #fff; }
+    .panel-dark  .wm-text .tag  { color: #fbbf24; }
+    .panel-light .wm-text .name { color: #0f172a; }
+    .panel-light .wm-text .tag  { color: #d97706; }
+
+    /* ── scale strip ── */
+    .scale {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 24px;
+      max-width: 860px;
+      margin: 0 auto 44px;
+      background: #0f172a;
+      border-radius: 22px;
+      padding: 36px 40px;
+      flex-wrap: wrap;
+    }
+
+    .sc { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+    .sc span {
+      font-size: .58rem;
+      font-weight: 600;
+      letter-spacing: .1em;
+      color: rgba(255,255,255,.28);
+    }
+
+    /* ── colour chips ── */
+    .chips {
+      display: flex; gap: 10px; justify-content: center;
+      flex-wrap: wrap; max-width: 860px; margin: 0 auto;
+    }
+    .chip {
+      display: flex; align-items: center; gap: 8px;
+      background: #fff; border-radius: 100px;
+      padding: 7px 16px 7px 9px;
+      box-shadow: 0 1px 8px rgba(0,0,0,.07);
+    }
+    .chip-dot { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; }
+    .chip span { font-size: .72rem; font-weight: 600; color: #475569; letter-spacing: .04em; }
+  </style>
+</head>
+<body>
+
+<h1>FinSteps Wealth &nbsp;·&nbsp; F·W Icon</h1>
+
+<!-- ═══════════════════════════════
+     SVG ICON — defined once, used at every size.
+
+     DESIGN:
+       Badge  : deep navy square, rounded
+       F      : left zone (x 6–32), bright amber gold
+       W      : right zone (x 26–58), crisp white
+       Overlap: x 26–32 — gold F stem and W left leg
+                cross intentionally; W drawn on top so
+                both letters stay fully readable.
+     ═══════════════════════════════ -->
+
+<!-- Dark panel -->
+<div class="layout">
+
+  <div class="panel panel-dark">
+    <span class="panel-label">Dark background</span>
+
+    <!-- 96 px hero -->
+    <svg width="96" height="96" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="64" height="64" rx="14" fill="#1e3a8a"/>
+      <rect width="64" height="64" rx="14" fill="url(#shine)" opacity=".18"/>
+      <!-- F — amber gold, left zone -->
+      <rect x="7"  y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+      <rect x="7"  y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+      <rect x="7"  y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+      <!-- W — pure white, right zone, drawn OVER so it stays visible -->
+      <polyline points="27,11 33,46 39,28 45,46 51,11"
+        stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+
+    <!-- wordmark -->
+    <div class="wm">
+      <svg width="48" height="48" viewBox="0 0 64 64" fill="none">
+        <rect width="64" height="64" rx="14" fill="#1e3a8a"/>
+        <rect x="7"  y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+        <rect x="7"  y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+        <rect x="7"  y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+        <polyline points="27,11 33,46 39,28 45,46 51,11"
+          stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+      <div class="wm-text">
+        <span class="name">FinSteps</span>
+        <span class="tag">Wealth</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Light panel -->
+  <div class="panel panel-light">
+    <span class="panel-label">Light background</span>
+
+    <!-- 96 px hero -->
+    <svg width="96" height="96" viewBox="0 0 64 64" fill="none">
+      <rect width="64" height="64" rx="14" fill="#0f172a"/>
+      <!-- F -->
+      <rect x="7"  y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+      <rect x="7"  y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+      <rect x="7"  y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+      <!-- W -->
+      <polyline points="27,11 33,46 39,28 45,46 51,11"
+        stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+
+    <!-- wordmark -->
+    <div class="wm">
+      <svg width="48" height="48" viewBox="0 0 64 64" fill="none">
+        <rect width="64" height="64" rx="14" fill="#0f172a"/>
+        <rect x="7"  y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+        <rect x="7"  y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+        <rect x="7"  y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+        <polyline points="27,11 33,46 39,28 45,46 51,11"
+          stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+      <div class="wm-text">
+        <span class="name">FinSteps</span>
+        <span class="tag">Wealth</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Scale strip -->
+<div class="scale">
+  <div class="sc">
+    <svg width="72" height="72" viewBox="0 0 64 64" fill="none">
+      <rect width="64" height="64" rx="14" fill="#1e3a8a"/>
+      <rect x="7" y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+      <polyline points="27,11 33,46 39,28 45,46 51,11" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    <span>72 px</span>
+  </div>
+  <div class="sc">
+    <svg width="56" height="56" viewBox="0 0 64 64" fill="none">
+      <rect width="64" height="64" rx="14" fill="#1e3a8a"/>
+      <rect x="7" y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+      <polyline points="27,11 33,46 39,28 45,46 51,11" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    <span>56 px</span>
+  </div>
+  <div class="sc">
+    <svg width="40" height="40" viewBox="0 0 64 64" fill="none">
+      <rect width="64" height="64" rx="14" fill="#1e3a8a"/>
+      <rect x="7" y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+      <polyline points="27,11 33,46 39,28 45,46 51,11" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    <span>40 px</span>
+  </div>
+  <div class="sc">
+    <svg width="28" height="28" viewBox="0 0 64 64" fill="none">
+      <rect width="64" height="64" rx="14" fill="#1e3a8a"/>
+      <rect x="7" y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+      <polyline points="27,11 33,46 39,28 45,46 51,11" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    <span>28 px</span>
+  </div>
+  <div class="sc">
+    <svg width="20" height="20" viewBox="0 0 64 64" fill="none">
+      <rect width="64" height="64" rx="14" fill="#1e3a8a"/>
+      <rect x="7" y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+      <polyline points="27,11 33,46 39,28 45,46 51,11" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    <span>20 px</span>
+  </div>
+  <div class="sc">
+    <svg width="16" height="16" viewBox="0 0 64 64" fill="none">
+      <rect width="64" height="64" rx="14" fill="#1e3a8a"/>
+      <rect x="7" y="11" width="20" height="5" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="11" width="5"  height="30" rx="2.5" fill="#fbbf24"/>
+      <rect x="7" y="23" width="14" height="5"  rx="2.5" fill="#fbbf24"/>
+      <polyline points="27,11 33,46 39,28 45,46 51,11" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    <span>16 px</span>
+  </div>
+</div>
+
+<!-- Colour chips -->
+<div class="chips">
+  <div class="chip">
+    <div class="chip-dot" style="background:#1e3a8a;"></div>
+    <span>Royal Blue · #1e3a8a</span>
+  </div>
+  <div class="chip">
+    <div class="chip-dot" style="background:#0f172a;"></div>
+    <span>Midnight · #0f172a</span>
+  </div>
+  <div class="chip">
+    <div class="chip-dot" style="background:#fbbf24;"></div>
+    <span>Amber Gold · #fbbf24 — F</span>
+  </div>
+  <div class="chip">
+    <div class="chip-dot" style="background:#ffffff; border:1px solid #e2e8f0;"></div>
+    <span>White · #ffffff — W</span>
+  </div>
+</div>
+
+</body>
+</html>

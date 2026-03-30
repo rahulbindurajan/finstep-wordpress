@@ -32,7 +32,7 @@ get_header(); ?>
           FinSteps Wealth was founded in 2009 by a group of seasoned finance professionals who believed that professional investment management shouldn't be reserved only for the ultra-wealthy. We set out to democratise mutual fund investing for every Indian.
         </p>
         <p class="story-text">
-          Starting with a small team and a single equity fund, we have grown into a full-service wealth management firm with &#8377;8,200 crore in AUM and more than 2.4 lakh satisfied investors across India.
+          Starting with a small team and a single equity fund, we have grown into a full-service wealth management firm serving more than 2.4 lakh satisfied investors across India.
         </p>
         <p class="story-text">
           Today, FinSteps Wealth is one of India's most trusted SEBI-registered mutual fund houses, known for consistent performance, investor education, and uncompromising transparency.
@@ -44,7 +44,7 @@ get_header(); ?>
           </div>
           <div class="milestone">
             <div class="milestone-year">2013</div>
-            <div class="milestone-desc"><strong>Crossed &#8377;500 Cr AUM</strong> and launched the Balanced Advantage Fund.</div>
+            <div class="milestone-desc">Launched the <strong>Balanced Advantage Fund</strong> and expanded to 5 new cities.</div>
           </div>
           <div class="milestone">
             <div class="milestone-year">2018</div>
@@ -52,7 +52,7 @@ get_header(); ?>
           </div>
           <div class="milestone">
             <div class="milestone-year">2023</div>
-            <div class="milestone-desc"><strong>&#8377;8,200 Cr AUM milestone</strong> reached. Awarded "Best Consistent Performer" by Morningstar India.</div>
+            <div class="milestone-desc">Awarded <strong>"Best Consistent Performer"</strong> by Morningstar India and CRISIL Rank 1 in Equity category.</div>
           </div>
         </div>
       </div>
@@ -62,10 +62,6 @@ get_header(); ?>
             <div class="big-icon">&#127970;</div>
             <p>FinSteps Wealth HQ<br>Mumbai, India</p>
           </div>
-        </div>
-        <div class="story-float-card">
-          <div class="float-num">&#8377;8,200<span>Cr</span></div>
-          <div class="float-desc">Total AUM (March 2024)</div>
         </div>
       </div>
     </div>

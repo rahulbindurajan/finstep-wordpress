@@ -135,9 +135,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const sipRate   = document.getElementById('sip-rate');
 
   function formatINR(n) {
-    if (n >= 1e7) return '&#8377;' + (n/1e7).toFixed(2) + ' Cr';
-    if (n >= 1e5) return '&#8377;' + (n/1e5).toFixed(2) + ' L';
-    return '&#8377;' + Math.round(n).toLocaleString('en-IN');
+    if (n >= 1e7) return '₹' + (n/1e7).toFixed(2) + ' Cr';
+    if (n >= 1e5) return '₹' + (n/1e5).toFixed(2) + ' L';
+    return '₹' + Math.round(n).toLocaleString('en-IN');
   }
 
   function calcSIP() {
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const invested = P * n;
     const returns  = FV - invested;
 
-    document.getElementById('sip-amount-label').textContent = '&#8377;' + P.toLocaleString('en-IN');
+    document.getElementById('sip-amount-label').textContent = '₹' + P.toLocaleString('en-IN');
     document.getElementById('sip-years-label').textContent  = sipYears.value + ' Years';
     document.getElementById('sip-rate-label').textContent   = sipRate.value + '%';
     document.getElementById('calc-invested').innerHTML      = formatINR(invested);

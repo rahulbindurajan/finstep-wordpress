@@ -29,7 +29,7 @@ require __DIR__ . '/inc/header.php';
         <div class="badge">Our Journey</div>
         <h2 class="story-title">Started With a Simple Belief:<br><em>Wealth Should Be Accessible to All</em></h2>
         <p class="story-text">FinSteps Wealth was founded by a group of seasoned finance professionals who believed that professional investment management shouldn't be reserved only for the ultra-wealthy. We set out to democratise mutual fund investing for every Indian.</p>
-        <p class="story-text">Starting with a small team and a single equity fund, we have grown into a full-service wealth management firm with &#8377;8,200 crore in AUM and more than 2.4 lakh satisfied investors across India.</p>
+        <p class="story-text">Starting with a small team and a single equity fund, we have grown into a full-service wealth management firm serving more than 2.4 lakh satisfied investors across India.</p>
         <p class="story-text">We are building FinSteps Wealth to be the most trusted, transparent, and accessible mutual fund platform for everyday investors — starting right here in Kerala.</p>
 
         <div class="mv-cards">
@@ -53,10 +53,6 @@ require __DIR__ . '/inc/header.php';
             <p>FinSteps Wealth<br>Irinjalakuda, Kerala</p>
           </div>
         </div>
-        <div class="story-float-card">
-          <div class="float-num">&#8377;8,200<span>Cr</span></div>
-          <div class="float-desc">Total AUM — March 2024</div>
-        </div>
       </div>
     </div>
   </div>
@@ -68,15 +64,7 @@ require __DIR__ . '/inc/header.php';
 <section class="stats-strip">
   <div class="container">
     <div class="stats-grid">
-      <div class="stat-item reveal">
-        <div class="stat-number">&#8377;<span data-count="8200" data-suffix="Cr+">8200Cr+</span></div>
-        <div class="stat-desc">Assets Under Management</div>
-      </div>
       <div class="stat-item reveal reveal-delay-1">
-        <div class="stat-number"><span data-count="2" data-suffix=".4L+">2.4L+</span></div>
-        <div class="stat-desc">Active Investors</div>
-      </div>
-      <div class="stat-item reveal reveal-delay-2">
         <div class="stat-number">&#128737;</div>
         <div class="stat-desc">SEBI Registered</div>
       </div>
@@ -129,7 +117,7 @@ require __DIR__ . '/inc/header.php';
 <!-- ========================================
    INVESTMENT PHILOSOPHY
    ======================================== -->
-<section class="section-padding" style="background:var(--white);" id="philosophy">
+<section class="philosophy-section section-padding" id="philosophy">
   <div class="container">
     <div class="text-center">
       <div class="badge">How We Think</div>
